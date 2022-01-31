@@ -21,6 +21,18 @@ In this project, we have used U-Net learner for converting grayscale black and w
 
 ## My process
 
+- First 200k Colored Human Face images Dataset was taken from Kaggle.
+![alt text](images/image_one.png)
+- Then a new dataset of grascale images were created by converted all images into grayscale using crappifier method.
+![alt text](images/crapify.png)
+- Both dataset were trained using U-Net learner with resnet34 CNN model. The Cost funtion used was MSELossFlat().
+- The training was done on Google Colab with GPU Hardware accelerator. It took around 3 hours and 20 minutes to complete the training.
+- It ended up with a 6% Validation error.
+![alt text](images/running.png)
+- Testing on the existing data.
+![alt text](images/image_two.png)
+
+
 ### Built with
 
 - Python 3
