@@ -28,12 +28,13 @@ In this project, we have used U-Net learner for converting grayscale black and w
 - Both dataset were trained using U-Net learner with resnet34 CNN model. The Cost funtion used was MSELossFlat().
 - The training was done on Google Colab with GPU Hardware accelerator. It took around 3 hours and 20 minutes to complete the training.
 - It ended up with a 6% Validation error.
-
 ![alt text](images/running.png)
-
 - Testing on the existing data.
-
 ![alt text](images/image_two.png)
+
+- You can save your model in .pkl file, which can be integrated in other webapps or mobile applications.
+- Below is the link for .pkl file for trained model.
+- [PKL file link](https://drive.google.com/file/d/1Unq9PFw1dG-_VThcLOg-PA4ecVyqhn4j/view?usp=sharing)
 
 
 ### Built with
